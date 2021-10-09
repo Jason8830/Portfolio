@@ -1,0 +1,19 @@
+#projects{
+    background: #1F232A;
+    margin-bottom: 50px;
+}
+
+#projects h1{
+    color:white;
+}
+
+#projects h3{
+    color:white;
+}
+
+#projects p{
+    color:white;
+    font-family:sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}

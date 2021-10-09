@@ -1,0 +1,18 @@
+#skills{
+    background: white;
+    margin-bottom: 70px;
+}
+
+#skills h1{
+    color:#1F232A;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+h3{
+    padding: 10px;
+}
+
+ul li {
+    text-align: left;
+}

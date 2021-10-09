@@ -1,0 +1,24 @@
+.dd{
+    color:black;
+    font-family: Montserrat;
+    font-size: 2rem;
+
+  }
+
+#starter h1{
+  color:white;
+  font-size: 100px;
+  position: absolute;
+  right :auto;
+  left: auto;
+  padding-top: 150px;
+  padding-left:100px;
+}
+
+@media screen and (max-width:768px) {
+  #starter  h1{
+    font-size: 40px;
+    padding-right: 70px;
+  }
+  
+}
