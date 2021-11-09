@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4f460c88.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7bff6d4a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7bff6d4a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.5ab90c22.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5ab90c22.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/Portfolio/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.7162416a.chunk.js": "/Portfolio/static/js/2.7162416a.chunk.js",
+    "static/js/2.7162416a.chunk.js.map": "/Portfolio/static/js/2.7162416a.chunk.js.map",
+    "static/js/3.cbec5121.chunk.js": "/Portfolio/static/js/3.cbec5121.chunk.js",
+    "static/js/3.cbec5121.chunk.js.map": "/Portfolio/static/js/3.cbec5121.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/Portfolio/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.4f460c88.chunk.css.map": "/Portfolio/static/css/main.4f460c88.chunk.css.map",
+    "static/js/2.7162416a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7162416a.chunk.js.LICENSE.txt",
+    "static/media/CDPH.72b57506.png": "/Portfolio/static/media/CDPH.72b57506.png",
+    "static/media/Search.313233f7.JPG": "/Portfolio/static/media/Search.313233f7.JPG",
+    "static/media/developer.e34a6d58.JPG": "/Portfolio/static/media/developer.e34a6d58.JPG",
+    "static/media/earth.cc3ec783.png": "/Portfolio/static/media/earth.cc3ec783.png",
+    "static/media/gdpt.7e3ad5ce.png": "/Portfolio/static/media/gdpt.7e3ad5ce.png",
+    "static/media/jupiter.3a1e9bd2.png": "/Portfolio/static/media/jupiter.3a1e9bd2.png",
+    "static/media/neptune.cbfde6ed.png": "/Portfolio/static/media/neptune.cbfde6ed.png",
+    "static/media/profile.55dac13c.jpg": "/Portfolio/static/media/profile.55dac13c.jpg",
+    "static/media/safe.86bc1eda.JPG": "/Portfolio/static/media/safe.86bc1eda.JPG",
+    "static/media/saturn.02f5cab2.png": "/Portfolio/static/media/saturn.02f5cab2.png",
+    "static/media/scc.bb726b98.jpg": "/Portfolio/static/media/scc.bb726b98.jpg",
+    "static/media/space.8793c4b0.jpg": "/Portfolio/static/media/space.8793c4b0.jpg",
+    "static/media/studying.e33cd894.png": "/Portfolio/static/media/studying.e33cd894.png",
+    "static/media/sun.20e72c6a.png": "/Portfolio/static/media/sun.20e72c6a.png",
+    "static/media/uranus.22b24067.png": "/Portfolio/static/media/uranus.22b24067.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ab90c22.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.7162416a.chunk.js",
+    "static/css/main.4f460c88.chunk.css",
+    "static/js/main.7bff6d4a.chunk.js"
+  ]
+}
