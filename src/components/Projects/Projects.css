@@ -4,16 +4,23 @@
 }
 
 #projects h1{
+    padding-bottom: 40px;
     color:white;
 }
 
 #projects h3{
     color:white;
 }
-
+#projects img{
+    border-radius: 10px;
+}
 #projects p{
     color:white;
     font-family:sans-serif;
     font-size: 20px;
     padding-top: 10px;
+}
+
+#projects-grid{
+    padding-bottom: 40px;
 }

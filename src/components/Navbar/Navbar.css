@@ -1,3 +1,12 @@
+.menu{
+  text-decoration: none;
+  color:rgb(97, 35, 35);
+}
+
+.planet-container{
+  padding-top: 20px;
+}
+
 #nav p{
   color:white;
   padding-left: 20px;
@@ -5,26 +14,52 @@
   font-size: 2rem;
   word-spacing: 2px;
   letter-spacing: 1.6px;
-  padding-top: 30px;
+  padding-top: 10px;
+  z-index: 10;
 }
 
+.resume-btn{
+  display: block;
+  border-radius:0.12em;
+  color: rgb(255, 255, 255);
+  text-decoration:none ;
+
+  /* background: linear-gradient(0deg, rgb(0, 8, 78) 0%,
+  rgb(181, 99, 228) 50%,
+  rgb(0, 202, 185) 100%); */
+  background: none;
+  border:4px solid rgb(219, 65, 65);
+  
+  
+  font-family: Bebas Neue;
+  font-size: 25px;
+  
+  margin-top:10px;
+  letter-spacing: 2px;
+  padding: 10px 20px 5px;
+  z-index: 10;
+}
+
+#mobile,#web{
+cursor: pointer;
+}
 
 .initials{
   display: none;
 }
 
 .NavbarItems{
-  background:#1F232A;
-  height: 80px;
+  background:none;
+  height: 120px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.2rem;
-
+  z-index: 10;
 }
 
- 
 .nav-menu{
+  padding-top:10px;
   display:grid;
   grid-template-columns: repeat(5,auto);
   grid-gap:5px;
@@ -33,20 +68,21 @@
   width:70vw;
   justify-content: end;
   margin-right: 2rem;
-
+  z-index: 10;
 }
 
 .nav-links{
-  color:white;
+  color:#ffffff;
   text-decoration: none;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   transition: all 0.2s ease-in;
 }
-.nav-links:hover{
-  text-shadow:0px 0px 20px #60DAFB;
-  transition: all .2s ease-out;
-}
 
+.nav-links:hover{
+  color:#d7e9a7;
+  text-shadow: 2px 5px 5px #d7e9a7;
+  transition: all .3s ease-in;
+}
 
 .fa-bars{
   color:white;
@@ -60,10 +96,35 @@
   display:none;
 }
 
+#web{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: -70px;
+}
+
+#stick{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mobile{
+  display: none;
+}
+
+.fullname {
+  display: inline;
+  margin-right: -400px;
+}
+
+/* Jason Nguyen Initals and Fullname page size change */
 @media screen and (max-width:1100px) {
   .initials{
     display: block;
     letter-spacing: .7px;
+    margin-left: 80px;
+    margin-right: -100px;
   }
   .fullname{
     display:none;
@@ -72,14 +133,32 @@
 
 @media screen and (max-width:768px){
   .NavbarItems{
-    position: relative;
+    justify-content: center;
   }
+
+  .resume-btn{
+    display: none;
+  }
+
   .initials{
     display: none;
   }
+
   .fullname{
     display:block;
+    margin-right: 0px; 
   }
+
+  #web{
+    display: none;
+  }
+
+  #mobile{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left:-120px;
+    }    
 
   .nav-menu{
     display:flex;
@@ -93,13 +172,13 @@
     transition: all 0.5s ease-in;
   }
 
+
   .nav-menu.active{
     background: #60DAFB;
     left:0;
     opacity: 1;
     transition: all 0.5s ease-in;
     z-index: 1;
-
   }
 
   .nav-links{
@@ -112,7 +191,6 @@
   .nav-links:hover{
     background-color: #1F232A;
     border-radius: 50px;
-    
   }
 
   .menu-icon{
@@ -148,7 +226,4 @@
     transition: all .2s ease-out;
   }
 
-  Button{
-    display: none;
-  }
 }

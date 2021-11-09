@@ -5,7 +5,8 @@ import './Icon.css';
 const CDFAIcon = () => {
     return (
         <div>
-            <img src = {cdfa} style={{'height':"25px",'marginTop':'10px'}}/>
+            <img src = {cdfa} alt= "California Department of Food and Agriculture Icon"
+            style={{'height':"25px",'marginTop':'10px'}}/>
         </div>
     )
 }

@@ -5,7 +5,8 @@ import './Icon.css';
 const SCCIcon = () => {
     return (
         <div>
-            <img src = {scc} style={{height:"25px",marginTop:'15px'}}/>
+            <img src = {scc} alt= "Sacramento City College Icon"
+            style={{height:"25px",marginTop:'15px'}}/>
         </div>
     )
 }
